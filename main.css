@@ -1,5 +1,4 @@
 .menu-top {
-  /* background-color: red; */
   width: 100%;
   height: 90px;
 }
@@ -35,10 +34,7 @@
   height: 20px;
   padding-right: 3px;
 }
-.shoppingBasket {
-  margin: 0 20px;
-  padding: 5px;
-}
+.shoppingBasket,
 .Login {
   margin: 0 20px;
   padding: 5px;
@@ -74,4 +70,63 @@
 .main__content img {
   width: 1200px;
   height: 550px;
+}
+
+.suv__title h3 {
+  margin: 40px auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.suv__title {
+  margin: 0 auto;
+  width: 1200px;
+  height: 50px;
+}
+.suv__img {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  height: 1302px;
+  overflow: hidden;
+}
+.one {
+  position: absolute;
+  left: 0%;
+  top: 0px;
+  width: 580px;
+  margin: 0 10px;
+  height: 870px;
+}
+.two {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  width: 580px;
+  margin: 0 10px;
+  height: 464px;
+}
+.three {
+  position: absolute;
+  left: 0%;
+  top: 890px;
+  width: 580px;
+  margin: 0 10px;
+  height: 386px;
+}
+.four {
+  position: absolute;
+  left: 50%;
+  top: 484px;
+  width: 580px;
+  margin: 0 10px;
+  height: 725px;
+}
+.zoom {
+  display: block;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.zoom:hover {
+  transform: scale(1.1);
 }
