@@ -2,9 +2,6 @@ var showIndex = 1;
 var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("dot");
 
-showSlides(showIndex);
-setTimeout(showAutoSlide, 4000);
-
 //슬라이드 방향 값을 가져와서 실행
 function plusSlides(n) {
   showSlides((showIndex += n));
@@ -49,3 +46,6 @@ function showAutoSlide() {
   dots[showIndex - 1].className += " active";
   setTimeout(showAutoSlide, 4000);
 }
+
+showSlides(showIndex);
+setTimeout(showAutoSlide, 4000);

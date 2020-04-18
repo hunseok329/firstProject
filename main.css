@@ -43,11 +43,14 @@
   margin: 0 20px;
   padding: 5px;
 }
+.navi__container {
+  max-width: 1200px;
+  margin: auto;
+}
 .navi {
   background-color: yellow;
-  width: 600px;
+  width: 50%;
   height: 50px;
-  margin-left: 10%;
 }
 .navi-button li {
   float: left;
@@ -69,8 +72,7 @@
   background-color: #ffff99;
 }
 
-/* main img part 
-img reset width 1200px height 800px*/
+/* main img part  */
 * {
   box-sizing: border-box;
 }
@@ -83,7 +85,9 @@ img reset width 1200px height 800px*/
 .mySlides {
   display: none;
 }
-
+.mySlides a img {
+  height: 550px;
+}
 .prev,
 .next {
   cursor: pointer;
@@ -150,6 +154,7 @@ img reset width 1200px height 800px*/
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  right: 0;
 }
 
 .suv__title {
@@ -158,19 +163,24 @@ img reset width 1200px height 800px*/
   font-size: 30px;
   font-weight: bold;
 }
-.suv__title__img {
-  margin: 0 auto;
+.suv__title__img__container {
   max-width: 1200px;
   height: 1500px;
+  margin: 0 auto;
+}
+.suv__title__img {
+  width: 100%;
+
   z-index: 1;
 }
 .item {
-  margin: 10px;
+  margin: 1%;
 }
 .scale {
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
+
 .scale:hover {
   transform: scale(1.1);
 }

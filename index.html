@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1023px)" href="main-max-1023.css" />
     <title>firstproject</title>
   </head>
   <body>
@@ -27,6 +28,7 @@
            </a>
         </ul>
       </div>
+     <div class="navi__container">
       <div class="navi">
         <ul class="navi-button">
           <li><a class="naviLink" href="#">Home</a></li>
@@ -36,6 +38,7 @@
           <li><a class="naviLink" href="#">Where to buy</a></li>
         </ul>
       </div>
+     </div>
     </header>
     <main>
       <div class="slideshow__container">
@@ -63,8 +66,9 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
-    <h3 class="suv__title">Mug cup photo</h3>
-      <div class="suv__title__img"style="position: relative;">
+      <h3 class="suv__title">Mug cup photo</h3>
+      <div class="suv__title__img__container">
+        <div class="suv__title__img"style="position: relative;">
           <div class="item" style="position: absolute; left: 0%; top: 0px;">
             <div class="img__one">
               <div class="scale"><a href="#"><img src="./images/suv_title_img/calum-lewis-H6clJErbJ4E-unsplash.jpg" alt="mug"></a></div>
@@ -78,13 +82,14 @@
           <div class="item" style="position: absolute; left: 0%; top: 900px;">
             <div class="img__three">
               <div class="scale"><a href="#"><img src="./images/suv_title_img/toa-heftiba-yWyS3lM6K-E-unsplash.jpg" alt="mug"></a></div>
-            </div>
+           </div>
           </div>
           <div class="item" style="position: absolute; left: 50%; top: 480px;">
             <div class="img__four">
               <div class="scale"><a href="#"><img src="./images/suv_title_img/daniel-norris-JSl78zR7D0M-unsplash.jpg" alt="mug"></a></div>
             </div>
           </div>
+        </div>
       </div>
     </main>
     <footer>
