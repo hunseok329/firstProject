@@ -1,0 +1,13 @@
+body {
+  background-color: yellow;
+}
+/* 
+transform: duration and translate 를 사용하면 width 값에 따른 suv__title__img 크기를 변경 할수 있을것 같음
+*/
+
+/* .item,
+.one {
+  position: absolute;
+  left: 0%;
+  top: 880px;
+} */

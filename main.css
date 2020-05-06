@@ -85,9 +85,7 @@
 .mySlides {
   display: none;
 }
-/* .mySlides a img {
-  height: 50%;
-} */
+
 .prev,
 .next {
   cursor: pointer;
@@ -173,7 +171,9 @@
   position: relative;
   height: 1500px;
 }
-
+.suv__title__img::after {
+  box-sizing: inherit;
+}
 .item,
 .one {
   position: absolute;
@@ -209,13 +209,12 @@
 }
 
 .img__one {
-  max-width: 100%;
-  height: 100%;
+  max-width: 1200px;
   overflow: hidden;
 }
 .img__two {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   overflow: hidden;
 }
 .img__three {

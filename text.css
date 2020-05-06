@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.item {
+  flex: 1;
+}
+.item2 {
+  flex: 3;
+}
